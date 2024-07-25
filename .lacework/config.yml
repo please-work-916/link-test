@@ -8,8 +8,8 @@ pr_status_enabled: true
 pr_status_thresholds:
     critical: 0
     high: 0
-    medium: 999
-    low: 999
+    medium: 0
+    low: 0
 
 # Force the status check to pass.  Checks will still be run.
 # Effectively the same as raising thresholds to high values.
