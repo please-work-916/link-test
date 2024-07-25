@@ -1,6 +1,6 @@
 # Not all values need to be explicitly set.  
 
-# Set to true to allow the Code Security App to update your PR Status Check
+# Should the Code Security App update your PR Status Check
 pr_status_enabled: true
 
 # Maximum allowable findings, above which
@@ -13,9 +13,9 @@ pr_status_thresholds:
 
 # Force the status check to pass.  Checks will still be run.
 # Effectively the same as raising thresholds to high values.
-pr_status_force_pass_enabled: true
+pr_status_force_pass_enabled: false
 
-# Set to true if you want Code Security App to add PR comments
+# Set to true if you want the Code Security App to add PR comments
 pr_comments_enabled: true
 
 
